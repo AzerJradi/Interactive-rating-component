@@ -1,0 +1,134 @@
+*{
+    background: #141519;
+}
+.body {
+    width: 25%;
+    height: 325px;
+    background: #1F2630;
+    margin-left: 37.5%;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+.firstImg {
+    background: #262F34;
+    margin-left: 10%;
+    margin-top: 35px;
+    padding: 10px;
+    border-radius: 100%;
+}
+.title {
+    background: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-top: 25px;
+}
+#Descreption{
+    background: transparent;
+    color: grey;
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 80%;
+    line-height: 22.5px;
+    margin-top: -10px;
+}
+.NumDiv {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    margin-bottom: 15px;
+}
+.Num {
+    background: #262F34;
+    color: grey;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 100%;
+}
+.SubmitBtn {
+    background: #FC7613;
+    border: none;
+    border-radius: 30px;
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: not-allowed;
+}
+.SubmitBtn.enabled {
+    background-color: white;
+    cursor: pointer;
+  }
+button:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+    /* hdhi tbdl fl forme t3 l mouse */
+}
+.thank-you {
+    width: 25%;
+    height: 325px;
+    background: #1F2630;
+    margin-left: 37.5%;
+    margin-top: 100px;
+    border-radius: 30px;
+    display: none;
+}
+.lastImg {
+    background: transparent;
+    width: 35%;
+    margin-top: 25px;
+    margin-left: 32.5%;
+}
+#title {
+    background: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 35%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.selectedElement{
+    background: #262F34;
+    color: #FC7613;
+    width: 45%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    padding: 10px 5%;
+    border-radius: 20px;
+}
+.para{
+    background: transparent;
+    color: grey;
+    width: 84.5%;
+    margin-left: 7.75%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.highlight {
+    background-color: white;
+    color: black;
+}
+#selectedRating{
+    background: transparent;
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+}
